@@ -46,7 +46,7 @@
     </div>
     
     <div class="footer-bottom">
-        <p>© <?= date('Y').' ';$developer['name'] ?> · <?= $developer['alias'] ?>. <?= t('footer_rights') ?></p>
+        <p>© <?= date('Y') . ' ' . $developer['name'] ?> · <?= $developer['alias'] ?>. <?= t('footer_rights') ?></p>
         <p><?= t('footer_built') ?> <span class="heart"> Zirod </span> <?= t('footer_from') ?></p>
     </div>
 </footer>

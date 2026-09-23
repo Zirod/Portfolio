@@ -37,8 +37,8 @@
          <?php ViewIncluder("layout", "footer"); ?>
 
 
-        <script src = "./assets/js/main.js">
-            // Typing effect (injecté proprement depuis PHP)
+        <script>
+            // Données injectées depuis PHP (le fichier externe main.js les utilise)
             const typingTexts = <?= json_encode($typing_texts[$current_lang]) ?>;
             let typingIndex = 0, charIndex = 0, isDeleting = false, typingTimeout;
 
@@ -49,6 +49,7 @@
                 e.target.reset();
             });
         </script>
+        <script src="./assets/js/main.js"></script>
 
     </body>
 </html>
