@@ -1150,13 +1150,3 @@
     .hero { padding-top: 7rem; }
     section { padding: 4rem 5%; }
     }
-
-    /* Language display */
-    [data-lang="fr"] { display: none; }
-    [data-lang="en"] { display: inline; }
-    body.lang-fr [data-lang="fr"] { display: inline; }
-    body.lang-fr [data-lang="en"] { display: none; }
-    body.lang-fr .block-fr { display: block !important; }
-    body.lang-fr .block-en { display: none !important; }
-    .block-en { display: block; }
-    .block-fr { display: none; }

@@ -4,9 +4,11 @@
 
 <!DOCTYPE html>
 <html lang="<?= $current_lang ?>">
+
     <head>
         <?php include("./assets/shared/sharedHead.php"); ?>
     </head>
+    
     <body class="<?= $current_lang === 'fr' ? 'lang-fr' : 'lang-en' ?>">
 
         <div class="orb orb-1"></div>
